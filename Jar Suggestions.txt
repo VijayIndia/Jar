@@ -1,0 +1,11 @@
+
+									1.DataSource Jar
+
+DataSource Jar:
+		There are 2 jars available 
+				i)Apache commons DBCP
+				ii)Spring jdbc DriverManagerDataSource
+				We need to choose Apache DBCP because it supports Connection Pooling whereas Spring JDBC establishes a new connection every time.
+				Reference:https://stackoverflow.com/questions/17945137/spring-drivermanagerdatasource-vs-apache-basicdatasource
+
+				
